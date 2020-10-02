@@ -25,8 +25,8 @@ gcloud functions deploy todo-http-example --entry-point app --runtime nodejs10 -
 ```
 
 Sources: 
-*  (NodeJS functions framework)[https://github.com/GoogleCloudPlatform/functions-framework-nodejs]
- * (GCP Cloud Functions)[https://cloud.google.com/functions]
+*  [NodeJS functions framework](https://github.com/GoogleCloudPlatform/functions-framework-nodejs)
+ * [GCP Cloud Functions](https://cloud.google.com/functions)
 
 ## Firestore (DataStore)
 
