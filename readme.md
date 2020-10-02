@@ -19,7 +19,7 @@ $ npm start
 Deployment: 
 
 ```bash
-gcloud functions deploy my-http-example --entry-point app --runtime nodejs10 --trigger-http --allow-unauthenticated
+gcloud functions deploy todo-http-example --entry-point app --runtime nodejs10 --trigger-http --allow-unauthenticated --region europe-west1
 ```
 
 ## Firestore (DataStore)
