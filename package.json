@@ -1,0 +1,18 @@
+{
+  "name": "gcp-cloud-functions-http-exampe",
+  "version": "1.0.0",
+  "description": "GCP Cloud Functions HTTP Example",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=app"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/firestore": "^4.4.0",
+    "@google-cloud/functions-framework": "^1.7.1",
+    "express": "^4.17.1",
+    "uuid": "^8.3.0"
+  }
+}
